@@ -141,6 +141,11 @@ p {
     gap: 10px;
 }
 
+iframe {
+    width: 75%;
+    height: 450px;
+}
+
 #diferentes div {
     width: 50%;
 }
@@ -267,5 +272,10 @@ p {
 
     #menu-mobile.active {
         display: flex;
+    }
+
+    iframe {
+        width: 100%;
+        height: 250px;
     }
 }
